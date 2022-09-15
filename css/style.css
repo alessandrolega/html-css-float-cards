@@ -12,90 +12,58 @@ html{
 }
 
 header{
-    width: 80%;
-    margin: 50px auto;
-    margin-top: 20px;
-}
-
-main{
-    width: 80%;
-    margin: auto;
+    text-align: center;
+    padding: 30px;
 }
 
 header h1{
     text-align: center;
     color: #E53170;
     font-size: 40px;
-    font-weight: bolder;
 }
 
-.p-container{
-    margin: 20px;
-}
-
-.p1, .p2{
+header p{
+    padding: 30px;
     font-size: 20px;
 }
 
-.p2{
-    text-align: center;
+body{
+    width: 80%;
+    margin: auto;
 }
 
-.container{
-    margin-top: 5px;
-}
-
-.column{
+.col{
     float: left;
     width: calc( 100% / 3);
-    padding: 30px 20px;
+    padding: 20px;
+}
+
+img{
+    width: 130px;
+    height: 120px;
+    float: left;
+    padding-right: 20px;
 }
 
 .card{
-    width: 100%;
-    background-color: #000;
+    background-color: #0F0E17;
+    color: white;
+    line-height: 2em;
     box-shadow: 5px 5px 5px grey;
 }
 
-
-
-.card img{
-    width: 120px;
-    height: 120px;
-    float: left;
-}
-
-.card-name{
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 5px;
-    text-align: left;
-}
-
-.card-mansion{
-    color: white;
-    padding: 5px;
-    
-    
-}
-
-.card-contact{
-    color: #6AC3E4;
-    padding: 5px;
-    
-}
-
 .clearfix::after{
-    clear: both;
     content: '';
     display: table;
+    clear: both;
+}
 
+.card-text h3{
+    padding-bottom: 10px;
+    padding-top: 5px;
 }
-.card-text{
-    float: right;
-    padding-left: 10px;
-    width: calc( 100% - 120px);
-    margin: 0 auto;
-    height: 100%;
+
+.email{
+    color: #6AC3E4;
 }
+
